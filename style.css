@@ -1,0 +1,70 @@
+body{
+    background-color: bisque;
+}
+.container{
+    height: 460px;
+    width: 220px;
+    text-align: center;
+    background-color: rgba(34, 16, 8, 0.705);
+    margin: auto;
+}
+.progress{
+    height: 160px;
+    width: 160px;
+    background-color: white;
+    border: 12px solid gray;
+    margin: auto;
+    color: rgb(37, 202, 214);
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.btn{
+    background-color: rgb(54, 44, 44);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    width:70px;
+    
+    margin-top: 20px;
+}
+.smallbtn{
+    background-color: rgb(54, 44, 44);
+    border: none;
+    color: white;
+    padding: 2px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.split{
+    display: flex;
+    margin: 0 0 0 20;
+}
+#break{
+    margin-left: 30px;
+}
+#firstrow{
+    position: relative;
+    left: 25px;
+}
+#secrow{
+    position: relative;
+    left:50px;
+}
+#sesshead{
+    position: relative;
+    top:15px;
+    color: white;
+}
