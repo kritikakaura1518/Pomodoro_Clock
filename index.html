@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <!-- timer -->
+        <div class="progress">
+            <label id="minutes">10</label><label>:</label><label id="seconds">00</label>
+        </div>
+
+        <!-- session head -->
+        <h1 id="sesshead">Session</h1>
+
+
+        <div class="split">
+        <!-- Session Time -->
+        <div id="sess">
+            <p style="color:white">session time</p><p id="stime" style="color:rgb(37, 202, 214);;font-size:20px">20 min</p>
+            <button type="button" id="sessionplus" onclick="incSess()" class="smallbtn">+</button>
+            <button type="button" id="sessionminus" onclick="decSess()" class="smallbtn">-</button>
+        </div>
+
+        <!-- Break Time -->
+        <div id="break">
+            <p style="color:white">break time</p><p id="btime" style="color:#FF8C00;font-size:20px">5 min</p>
+            <button type="button" id="breakplus" onclick="incBr()" class="smallbtn">+</button>
+            <button type="button" id="breakminus" onclick="decBr()" class="smallbtn">-</button>
+        </div>
+        </div>
+        
+        <!-- start and reset button -->
+        <table>
+            <tr>
+                <td id="firstrow">
+                     <button type="button" id="start" onclick="startsess()" class="btn">Start</button>
+        <button type="button" id="pause" onclick="pausesess()" class="btn" style="display:none">Pause</button>
+        <button type="button" id="resume" onclick="resumesess()" class="btn" style="display:none">Resume</button>
+                </td>
+                <td id="secrow">
+                    <button type="button" id="reset" onclick="resetsess()" class="btn">Reset</button>
+                </td>
+            </tr>
+        </table>
+       
+      
+        
+        </div>
+    </body>
+</html>
